@@ -1,0 +1,26 @@
+# .NET
+bin/
+obj/
+.vs/
+*.user
+TestResults/
+
+# Azure Functions
+local.settings.json
+.azurite/
+__azurite_db*
+__blobstorage__/
+__queuestorage__/
+
+# Frontend
+node_modules/
+dist/
+*.log
+.env.local
+.env.*.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
